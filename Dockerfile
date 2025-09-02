@@ -2,5 +2,5 @@ FROM node:4.6
 WORKDIR /app
 ADD . /app
 RUN npm install
-EXPOSE 80
+EXPOSE 8080
 CMD npm start
